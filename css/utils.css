@@ -28,6 +28,10 @@
   margin: 0 auto;
 }
 
+.color-white{
+  color: white;
+}
+
 /* DEBUG */
 
 .debug{

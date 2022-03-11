@@ -1,7 +1,6 @@
 /* 
 HEADER
 */
-
 header{
   position: fixed;
   top: 0;
@@ -87,5 +86,103 @@ JUMBOTRON
  .jumbotron-image img{
    width: 100%;
  }
-
 /* /JUMBOTRON*/
+
+
+/* 
+MAIN
+*/
+/* SEZIONE PIANI */
+section{
+  margin-top: 100px;
+}
+
+.section-title h2{
+  font-size: 20px;
+}
+
+section div.fake-radio-buttons{
+  margin-top: 20px;
+}
+
+div.radio-btn{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  vertical-align: middle;
+}
+
+div.radio-btn.checked{
+  border: 3px solid #0061ff;
+}
+
+.money-by-time{
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.column-container{
+  padding-top: 10px;
+}
+
+.column-header{
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+.column-content{
+  padding: 20px 30px 0 30px;
+}
+
+.column-content > *, .type-of-plan > *{
+  margin-bottom: 10px;
+}
+
+.cost{
+  display: block;
+}
+
+.type-of-payment{
+  color: #76838f;
+}
+
+section div.plan-description{
+  margin-top: 30px;
+}
+
+section div.plan-description ol{
+  margin: 0;
+  margin-left: 17px;
+}
+
+section div.plan-description ol li{
+  margin-bottom: 15px;
+}
+
+.plan-try-btn{
+  margin: 50px 0 20px 0;
+  background-color: #0061ff;
+  text-align: center;
+  padding: 7px 15px 7px 15px;
+}
+
+.plan-try-btn a{
+  color: white;
+  font-size: bold;
+}
+
+.buy-now{
+  text-decoration: underline;
+  text-decoration-color: rgba(160, 196, 255, 0.2);
+  color: #0463ff;
+}
+
+  .hr{
+    margin: 30px 0 30px 0;
+    width: 45px;
+    border-bottom: 1px solid #d8d8db;
+  }
+/* /SEZIONE PIANI */
