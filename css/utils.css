@@ -1,0 +1,73 @@
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.margin-auto{
+  margin: 0 auto;
+}
+
+/* DEBUG */
+
+.debug{
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+
+.h100{
+  min-height: 100px;
+}
+
+.h200{
+  min-height: 200px;
+}
+
+.h300{
+  min-height: 300px;
+}
+
+.h500{
+  min-height: 500px;
+}
+
+.width150{
+ width: 150px;
+}
+
+.width300{
+  width: 300px;
+ }
+
+ .w33{
+   width: 33%;
+ }
+
+.w40{
+  width: 40%;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w60{
+  width: 60%;
+}
+
+.w100{
+  width: 100%;
+}
