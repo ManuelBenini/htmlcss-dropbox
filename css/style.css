@@ -3,5 +3,89 @@ HEADER
 */
 
 header{
-  /* FIXED */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 50px;
+  width: 100%;
+  line-height: 48.5px;
+  padding: 0 10px 0 10px;
+  background-color: white;
 }
+
+header li{
+  display: inline-block;
+}
+
+.logo{
+  width: 96px;
+}
+
+header nav img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+header nav ul.first-list li:nth-child(1n + 2){
+  margin-left: 20px;
+}
+
+header nav ul.second-list li{
+  margin-right: 20px;
+}
+
+header div.login-btn{
+  text-align: center;
+}
+
+header nav ul li:hover{
+  border-bottom: 2px solid black;
+}
+/* /HEADER */
+
+
+/* 
+JUMBOTRON
+*/
+ .jumbotron{
+   margin-top: 50px;
+   background-color: #b4d0e7;
+ }
+
+ .jumbotron-content{
+   width: 87%;
+   padding-top: 60px;
+   margin: 0 auto;
+ }
+
+ .jumbotron-title{
+   font-size: 37px;
+ }
+
+ .jumbotron-description{
+   width: 370px;
+   margin-top: 50px;
+ }
+
+ .jumbotron-description div.btn-try{
+   margin: 25px 0 10px 0;
+ }
+
+ .arrow{
+   display: block;
+   margin-top: 30px;
+   font-size: 35px;
+ }
+
+ .jumbotron-image{
+  margin: 50px 0 0 65px;
+  height: 300px;
+  width: 700px;
+ }
+
+ .jumbotron-image img{
+   width: 100%;
+ }
+
+/* /JUMBOTRON*/

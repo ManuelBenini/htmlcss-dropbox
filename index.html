@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/utils.css">
@@ -12,45 +14,53 @@
 </head>
 <body>
   
-  <header class="debug h100 clearfix">
-    
-    <div class="logo debug width150 float-left">
-      <img src="" alt="">
-    </div>
+  <header class="clearfix">
 
-    <nav class="debug width150 float-left">
-      <ul>
+    <nav class="float-left">
+      <ul class="first-list">
+        <li class="logo"><img src="/img/logo-small.png" alt=""></li>
         <li><a href="#">Perch&egrave; Dropbox?</a></li>
         <li><a href="#">Funzioni</a></li>
         <li><a href="#">Piani e prezzi</a></li>
       </ul>
     </nav>
 
-    <div class="btn debug width150 float-right">
-      <a href="#">inizia</a>
+    <div class="login-btn float-right">
+      <a href="#" class="btn">Inizia</a>
     </div>
 
-    <nav class="debug width150 float-right">
-      <ul>
-        <li><a href="#">Perch&egrave; Dropbox?</a></li>
-        <li><a href="#">Funzioni</a></li>
-        <li><a href="#">Piani e prezzi</a></li>
+    <nav class="float-right">
+      <ul class="second-list">
+        <li><a href="#">Supporto</a></li>
+        <li><a href="#">Contatta l'ufficio vendite</a></li>
+        <li><a href="#">Accedi</a></li>
       </ul>
     </nav>
 
   </header>
 
   <!-- JUMBOTRON -->
-  <div class="jumbotron debug h500 clearfix">
-    
-    <div class="jumbo-title debug h100 w40">
+  <div class="jumbotron h500">
+
+    <div class="jumbotron-content clearfix">
+      <div class="jumbotron-title h100">
+        <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
+      </div>
+  
+      <div class="jumbotron-description float-left">
+        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono acessibili dallo stesso posto. Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+        <div class="btn-try">
+          <a href="#" class="btn">inizia la tua prova gratuita</a>
+        </div>
+        <span>Annulla in qualsiasi momento</span>
+        <span class="arrow"><i class="fa-solid fa-arrow-down"></i></span>
+      </div>
+  
+      <div class="jumbotron-image float-left">
+        <img src="/img/jumbo.png" alt="">
+      </div>
     </div>
 
-    <div class="jumbo-description debug h100 width150 float-left">
-    </div>
-
-    <div class="jumbo-image debug h300 w40 float-left">
-    </div>
   </div>
   <!-- /JUMBOTRON -->
 

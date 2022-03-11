@@ -3,6 +3,13 @@
   margin: 0 auto;
 }
 
+.btn{
+  background-color: #0061ff;
+  padding: 7px 15px 7px 15px;
+  color: white;
+  font-size: 13px;
+}
+
 .float-left{
   float: left;
 }
