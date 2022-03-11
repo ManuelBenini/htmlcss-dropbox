@@ -97,12 +97,13 @@ section{
   margin-top: 100px;
 }
 
-.section-title h2{
+.top-section-title-radio h2{
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
 section div.fake-radio-buttons{
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 div.radio-btn{
@@ -115,7 +116,7 @@ div.radio-btn{
 }
 
 div.radio-btn.checked{
-  border: 3px solid #0061ff;
+  border: 4px solid #0061ff;
 }
 
 .money-by-time{
@@ -124,17 +125,24 @@ div.radio-btn.checked{
 }
 
 .column-container{
-  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.column{
+  width: calc(100% / 3 - 30px);
+  height: 800px;
+  border: 1px solid #cdcdd0;
+  margin-bottom: 40px;
 }
 
 .column-header{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #cdcdd0;
   text-align: center;
   padding: 5px;
 }
 
 .column-content{
-  padding: 20px 30px 0 30px;
+  padding: 20px 36px 0 30px;
 }
 
 .column-content > *, .type-of-plan > *{
@@ -143,6 +151,7 @@ div.radio-btn.checked{
 
 .cost{
   display: block;
+  font-weight: bold;
 }
 
 .type-of-payment{
@@ -153,12 +162,12 @@ section div.plan-description{
   margin-top: 30px;
 }
 
-section div.plan-description ol{
+section.plans ol{
   margin: 0;
   margin-left: 17px;
 }
 
-section div.plan-description ol li{
+section.plans ol li{
   margin-bottom: 15px;
 }
 
@@ -180,9 +189,51 @@ section div.plan-description ol li{
   color: #0463ff;
 }
 
-  .hr{
-    margin: 30px 0 30px 0;
-    width: 45px;
-    border-bottom: 1px solid #d8d8db;
-  }
+.hr{
+  margin: 30px 0 30px 0;
+  width: 45px;
+  border-bottom: 1px solid #d8d8db;
+}
+
+.catchy-points h4{
+  margin-bottom: 20px;
+}
+
+.fa-solid.fa-check{
+  color: #005cff;
+}
+/* /PRIMA COLONNA */
+
+
+
+/* SECONDA E TERZA COLONNA */
+.column.center{
+  margin: 0 45px 0 45px;
+}
+
+
+/* COLONNA IN BASSO */
+.bottom-column{
+  border: 1px solid #cdcdd0;
+}
+
+.bottom-column p{
+  padding: 20px 0 10px 0;
+}
+
+.column-content.bottom{
+  width: 81%;
+}
+
+.contact-btn{
+  margin-top: 20px;
+  background-color: #0061ff;
+  text-align: center;
+  padding: 6px 5px 6px 5px;
+}
+
+.contact-btn a{
+  color: white;
+  font-size: bold;
+}
 /* /SEZIONE PIANI */
