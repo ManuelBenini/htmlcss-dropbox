@@ -48,14 +48,15 @@ header nav ul li:hover{
 JUMBOTRON
 */
  .jumbotron{
-   height: 550px;
+   height: 600px;
    margin-top: 50px;
+   padding-top: 50px;
    background-color: #b4d0e7;
  }
 
  .jumbotron-content{
-   width: 87%;
-   padding-top: 60px;
+   width: 90%;
+   max-width: 1600px;
    margin: 0 auto;
  }
 
@@ -64,7 +65,7 @@ JUMBOTRON
  }
 
  .jumbotron-description{
-   width: 370px;
+   width: 19%;
    margin-top: 50px;
  }
 
@@ -79,8 +80,9 @@ JUMBOTRON
  }
 
  .jumbotron-image{
-  margin-right: 60px;
-  width: 700px;
+  margin-left: 154px;
+  margin-top: 50px;
+  width: 43%;
  }
 
  .jumbotron-image img{
@@ -94,7 +96,7 @@ MAIN
 */
 /* SEZIONE PIANI */
 section{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .top-section-title-radio h2{
@@ -113,6 +115,7 @@ div.radio-btn{
   border-radius: 50%;
   background-color: white;
   vertical-align: middle;
+  border: 1px solid #f0f0f1;
 }
 
 div.radio-btn.checked{
@@ -124,13 +127,15 @@ div.radio-btn.checked{
   vertical-align: middle;
 }
 
+
+/* PRIMA COLONNA */
 .column-container{
   margin-top: 10px;
 }
 
 .column{
   width: calc(100% / 3 - 30px);
-  height: 800px;
+  height: 900px;
   border: 1px solid #cdcdd0;
   margin-bottom: 40px;
 }
@@ -138,11 +143,11 @@ div.radio-btn.checked{
 .column-header{
   border-bottom: 1px solid #cdcdd0;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 .column-content{
-  padding: 20px 36px 0 30px;
+  padding: 30px 36px 0 30px;
 }
 
 .column-content > *, .type-of-plan > *{
@@ -162,13 +167,13 @@ section div.plan-description{
   margin-top: 30px;
 }
 
-section.plans ol{
+section#plans ol{
   margin: 0;
   margin-left: 17px;
 }
 
-section.plans ol li{
-  margin-bottom: 15px;
+section#plans ol li{
+  margin-bottom: 25px;
 }
 
 .plan-try-btn{
@@ -206,7 +211,7 @@ section.plans ol li{
 
 
 
-/* SECONDA E TERZA COLONNA */
+/* COLONNA CENTRALE */
 .column.center{
   margin: 0 45px 0 45px;
 }
@@ -217,23 +222,51 @@ section.plans ol li{
   border: 1px solid #cdcdd0;
 }
 
-.bottom-column p{
-  padding: 20px 0 10px 0;
+.row-content{
+  padding: 30px;
 }
 
-.column-content.bottom{
-  width: 81%;
+
+.row-description{
+  width: 71%;
+}
+
+.row-description h2{
+  padding-bottom: 15px;
 }
 
 .contact-btn{
-  margin-top: 20px;
   background-color: #0061ff;
   text-align: center;
   padding: 6px 5px 6px 5px;
+  width: 29%;
 }
 
 .contact-btn a{
   color: white;
   font-size: bold;
 }
+/* COLONNA IN BASSO */
 /* /SEZIONE PIANI */
+
+
+
+/* SEZIONE TROVA PARTNER */
+.right-description{
+  height: 496px;
+  padding: 50px 190px 50px 50px;
+}
+
+.partner-finder{
+  padding-top: 20px;
+}
+
+.right-description .partner-finder a{
+  padding: 5px 13px 5px 13px;
+  border: 1px solid black;
+}
+/* /SEZIONE TROVA PARTNER */
+
+
+
+/* SEZIONE BUSINESS */
