@@ -212,7 +212,7 @@ section#plans ol li{
 
 
 /* COLONNA CENTRALE */
-.column.center{
+.column-center{
   margin: 0 45px 0 45px;
 }
 
@@ -267,6 +267,21 @@ section#plans ol li{
 }
 /* /SEZIONE TROVA PARTNER */
 
+#business h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
 
+.little-column{
+  width: calc(100% / 3 - 30px)
+}
+
+#business h3{
+  font-size: 23px;
+}
+
+.first-row{
+  margin-bottom: 100px;
+}
 
 /* SEZIONE BUSINESS */
