@@ -32,6 +32,10 @@
   color: white;
 }
 
+.active{
+  border: 10px solid rgba(255, 255, 255, 0.7);
+}
+
 /* DEBUG */
 
 .debug{
