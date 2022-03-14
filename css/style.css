@@ -485,8 +485,29 @@ section#plans ol li{
 }
 
 .little-row{
-  line-height: 100px;
+  padding-top: 40px;
   border-bottom: 1px solid #e7e7e8;
+  min-height: 100px;
+}
+
+.hidden-txt{
+  padding: 20px 0 20px 0;
+  width: 85%;
+  display: none;
+  color: #7a8894;
+}
+
+.little-row-txt:hover div.hidden-txt{
+  display: block;
+}
+
+.little-row-txt:hover span.chevron{
+  transform: rotate(180deg);
+}
+
+.hidden-txt a{
+  color: #7a8894;
+  text-decoration: underline #7a8894;
 }
 
 /* /DOMANDE FREQUENTI */
