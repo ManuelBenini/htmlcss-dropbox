@@ -80,8 +80,6 @@
 /* JUMBOTRON */
  .jumbotron{
    height: 600px;
-   margin-top: 50px;
-   padding-top: 50px;
    background-color: #b4d0e7;
  }
 
@@ -96,7 +94,10 @@
 
  .jumbotron-description{
    width: 19%;
-   margin-top: 50px;
+ }
+
+ .jumbotron-description p{
+   padding: 0;
  }
 
  .jumbotron-description div.button-try{
@@ -105,13 +106,11 @@
 
  .arrow{
    display: block;
-   margin-top: 30px;
    font-size: 35px;
  }
 
  .jumbotron-image{
   margin-left: 154px;
-  margin-top: 50px;
   width: 688px;
  }
 
@@ -130,10 +129,6 @@
 
     .top-section-title-radio h2{
       font-size: 20px;
-      margin-bottom: 40px;
-    }
-
-    section div.fake-radio-circle{
       margin-bottom: 40px;
     }
 
@@ -166,7 +161,6 @@
         width: calc(100% / 3 - 30px);
         min-height: 1000px;
         border: 1px solid #cdcdd0;
-        margin-bottom: 40px;
       }
 
       .column-header{
@@ -191,11 +185,7 @@
       .type-of-payment{
         color: #76838f;
       }
-
-      section div.plan-description{
-        margin-top: 30px;
-      }
-
+      
       section#plans ol{
         margin: 0;
         margin-left: 17px;
@@ -322,10 +312,6 @@
         text-decoration: underline #005eff;
         color: #005eff;
       }
-
-      .sponsor-header{
-        margin-bottom: 40px;
-      }
     /* /SPONSOR HEADER */
 
     /* SPONSOR-CONTENT */
@@ -361,25 +347,23 @@
         padding: 50px;
         overflow: auto;
       }
+
       .sponsor-img{
         width: 20%;
-        margin-bottom: 30px;
       }
       
       .sponsor-img svg{
         width: 100%;
         height: 100%;
-        }
+      }
 
       .hr-little{
-          width: 50px;
+        width: 50px;
         border: 1px solid #dfdfe1;
-        margin-bottom: 40px;
-        }
+      }
 
       .sponsor-central .quote-credit{
         display: inline-block;
-          margin-top: 40px;
       }
     /* /SPONSOR CENTRALE */
 
@@ -489,7 +473,6 @@
     }
 
     .little-row{
-      padding-top: 40px;
       border-bottom: 1px solid #e7e7e8;
       min-height: 100px;
     }
@@ -533,6 +516,10 @@
   .footer-container.lists{
     margin-bottom: 60px;
   }
+  
+  footer nav ul li a{
+    color: white;
+  }
 
   footer nav:nth-child(1n + 2) ul{
     margin-left: 80px;
@@ -542,22 +529,17 @@
     margin-bottom: 10px;
   }
 
-  footer nav ul li:first-child{
-    margin-bottom: 15px;
+  footer nav ul li:nth-child(1n + 2):hover a{
+    border-bottom: 1px solid white;
   }
 
-  footer nav ul li a{
-    color: white;
+  footer nav ul li:first-child{
+    margin-bottom: 15px;
   }
 
   div.big-hr{
     width: 100px;
     border: 1px solid #969696;
-    margin-bottom: 30px;
-  }
-
-  .localization{
-    padding-bottom: 30px;
   }
 
   .language{

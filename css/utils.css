@@ -116,3 +116,57 @@
     width: 100%;
   }
 /* /WIDTH */
+
+/* MARGIN */
+
+  .mg-bottom30px{
+    margin-bottom: 30px;
+  }
+
+  .mg-bottom40px{
+    margin-bottom: 40px;
+  }
+
+  .mg-bottom50px{
+    margin-bottom: 50px;
+  }
+
+  .mg-top30px{
+    margin-top: 30px;
+  }
+
+  .mg-top40px{
+    margin-top: 40px;
+  }
+
+  .mg-top50px{
+    margin-top: 50px;
+  }
+
+/* /MARGIN */
+
+/* PADDING */
+  .pd-bottom30px{
+    padding-bottom: 30px;
+  }
+
+  .pd-bottom40px{
+    padding-bottom: 40px;
+  }
+
+  .pd-bottom40px{
+    padding-bottom: 50px;
+  }
+
+  .pd-top30px{
+    padding-top: 30px;
+  }
+
+  .pd-top40px{
+    padding-top: 40px;
+  }
+
+  .pd-top50px{
+    padding-top: 50px;
+  }
+/* PADDING */
