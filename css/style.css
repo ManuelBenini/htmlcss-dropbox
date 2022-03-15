@@ -82,7 +82,7 @@
    background-color: #b4d0e7;
  }
 
- .jumbotron-content{
+ .jumbotron-container, .footer-container{
    width: 90%;
    max-width: 1600px;
  }
@@ -500,8 +500,8 @@
     color: white;
   }
 
-  .footer-container{
-    width: 70%;
+  .footer-column{
+    width: calc(100% / 5);
   }
 
   .footer-container.lists{
@@ -512,9 +512,9 @@
     color: white;
   }
 
-  footer nav:nth-child(1n + 2) ul{
+  /* footer nav:nth-child(1n + 2) ul{
     margin-left: 80px;
-  }
+  } */
 
   footer nav ul li:nth-child(1n + 2){
     margin-bottom: 10px;
