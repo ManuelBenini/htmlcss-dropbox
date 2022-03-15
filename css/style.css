@@ -9,6 +9,7 @@
     line-height: 48.5px;
     padding: 0 10px 0 10px;
     background-color: white;
+    text-align: center
   }
 
   header li{
@@ -32,48 +33,47 @@
     margin-right: 20px;
   }
 
-  header div.login-btn{
-    text-align: center;
-  }
-
   header nav ul.first-list li:hover{
     border-bottom: 2px solid black;
-}
+  }
 
   header nav ul.second-list > li:hover{
     border-bottom: 2px solid black;
   }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+  /* DROPDOWN BONUS */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
 
-  .dropdown-content{
-    display: none;
-    position: absolute;
-    top: 50.5px;
-    right: 200px;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 0 12px 0;
-    z-index: 500;
-    width: 200px;
-    text-align: center;
-  }
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      top: 50.5px;
+      right: 200px;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 0 12px 0;
+      z-index: 500;
+      width: 200px;
+      text-align: center;
+    }
 
-  header nav ul.second-list li#dropdown:hover ul{
-    display: inline-block;
-  }
+    header nav ul.second-list li#dropdown:hover ul{
+      display: inline-block;
+    }
 
-  header nav ul.second-list li#dropdown ul li{
-    width: 100%;
-  }
+    header nav ul.second-list li#dropdown ul li{
+      width: 100%;
+    }
 
-  header nav ul.second-list li#dropdown ul li:hover{
-    background-color: #ebebeb;
-  }
+    header nav ul.second-list li#dropdown ul li:hover{
+      background-color: #ebebeb;
+    }
+  /* DROPDOWN BONUS */
+  
 /* /HEADER */
 
 
@@ -88,7 +88,6 @@
  .jumbotron-content{
    width: 90%;
    max-width: 1600px;
-   margin: 0 auto;
  }
 
  .jumbotron-title{
@@ -100,7 +99,7 @@
    margin-top: 50px;
  }
 
- .jumbotron-description div.btn-try{
+ .jumbotron-description div.button-try{
    margin: 25px 0 10px 0;
  }
 
@@ -113,7 +112,7 @@
  .jumbotron-image{
   margin-left: 154px;
   margin-top: 50px;
-  width: 43%;
+  width: 688px;
  }
 
  .jumbotron-image img{
@@ -122,445 +121,462 @@
 /* /JUMBOTRON*/
 
 
-/* 
-MAIN
-*/
-/* SEZIONE PIANI */
-section, footer{
-  margin-top: 130px;
-}
+/* MAIN */
 
-.top-section-title-radio h2{
-  font-size: 20px;
-  margin-bottom: 40px;
-}
-
-section div.fake-radio-buttons{
-  margin-bottom: 40px;
-}
-
-div.radio-btn{
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: white;
-  vertical-align: middle;
-  border: 1px solid #f0f0f1;
-}
-
-div.radio-btn.checked{
-  border: 4px solid #0061ff;
-}
-
-.money-by-time{
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-
-/* PRIMA COLONNA */
-.column-container{
-  margin-top: 10px;
-}
-
-.column{
-  width: calc(100% / 3 - 30px);
-  min-height: 1000px;
-  border: 1px solid #cdcdd0;
-  margin-bottom: 40px;
-}
-
-.column-header{
-  border-bottom: 1px solid #cdcdd0;
-  text-align: center;
-  padding: 10px;
-}
-
-.column-content{
-  padding: 30px 36px 0 30px;
-}
-
-.column-content > *, .type-of-plan > *{
-  margin-bottom: 10px;
-}
-
-.cost{
-  display: block;
-  font-weight: bold;
-}
-
-.type-of-payment{
-  color: #76838f;
-}
-
-section div.plan-description{
-  margin-top: 30px;
-}
-
-section#plans ol{
-  margin: 0;
-  margin-left: 17px;
-}
-
-section#plans ol li{
-  margin-bottom: 25px;
-}
-
-.plan-try-btn{
-  margin: 50px 0 20px 0;
-  background-color: #0061ff;
-  text-align: center;
-  padding: 7px 15px 7px 15px;
-}
-
-.plan-try-btn a{
-  color: white;
-  font-size: bold;
-}
-
-.buy-now{
-  text-decoration: underline;
-  text-decoration-color: rgba(160, 196, 255, 0.2);
-  color: #0463ff;
-}
-
-.hr{
-  margin: 30px 0 30px 0;
-  width: 45px;
-  border-bottom: 1px solid #d8d8db;
-}
-
-.catchy-points h4{
-  margin-bottom: 20px;
-}
-
-.fa-solid.fa-check{
-  color: #005cff;
-}
-/* /PRIMA COLONNA */
-
-
-
-/* COLONNA CENTRALE */
-.column-center{
-  margin: 0 45px 0 45px;
-}
-
-
-/* COLONNA IN BASSO */
-.bottom-column{
-  border: 1px solid #cdcdd0;
-}
-
-.row-content{
-  padding: 30px;
-}
-
-
-.row-description{
-  width: 71%;
-}
-
-.row-description h2{
-  padding-bottom: 15px;
-}
-
-.contact-btn{
-  background-color: #0061ff;
-  text-align: center;
-  padding: 6px 5px 6px 5px;
-  width: 29%;
-}
-
-.contact-btn a{
-  color: white;
-  font-size: bold;
-}
-/* /COLONNA IN BASSO */
-/* /SEZIONE PIANI */
-
-
-
-/* SEZIONE TROVA PARTNER */
-.right-description{
-  height: 496px;
-  padding: 50px 190px 50px 50px;
-}
-
-.partner-finder{
-  padding-top: 20px;
-}
-
-.right-description .partner-finder a{
-  padding: 5px 13px 5px 13px;
-  border: 1px solid black;
-}
-/* /SEZIONE TROVA PARTNER */
-
-
-
-/* SEZIONE BUSINESS */
-#business h2{
-  font-size: 40px;
-  margin-bottom: 40px;
-}
-
-.little-column{
-  width: calc(100% / 3 - 30px)
-}
-
-#business h3{
-  font-size: 23px;
-}
-
-.first-row{
-  margin-bottom: 100px;
-}
-/* /SEZIONE BUSINESS */
-
-
-
-/* SEZIONE SPONSOR */
-
-/* SPONSOR HEADER */
-.sponsor-header h2{
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.sponsor-header a{
-  text-decoration: underline #005eff;
-  color: #005eff;
-}
-
-.sponsor-header{
-  margin-bottom: 40px;
-}
-/* /SPONSOR HEADER */
-
-/* SPONSOR-CONTENT */
-  .sponsor-content{
-    height: 30vw;
-  }
-
-  .sponsor-aside{
-    width: 30%;
-    height: 100%;
-  }
-
-
-  /* SPONSOR CENTRALE */
-    .sponsor-central{
-      width: 40%;
-      height: 100%;
-      background-color: #f5f5f5;
-      padding: 50px;
-      overflow: auto;
+  /* SEZIONE PIANI */
+    section, footer{
+      margin-top: 130px;
     }
 
-    .sponsor-img{
-      width: 20%;
-      margin-bottom: 30px;
-    }
-
-    .sponsor-img svg{
-      width: 100%;
-      height: 100%;
-    }
-
-    .hr-little{
-      width: 50px;
-      border: 1px solid #dfdfe1;
+    .top-section-title-radio h2{
+      font-size: 20px;
       margin-bottom: 40px;
     }
 
-    .sponsor-central .quote-credit{
+    section div.fake-radio-circle{
+      margin-bottom: 40px;
+    }
+
+    div.radio-circle{
       display: inline-block;
-      margin-top: 40px;
-    }
-  /* /SPONSOR CENTRALE */
-
-  .sponsor-aside svg path{
-    fill: white;
-  }
-
-  .little-square{
-    width: 50%;
-    height: 50%;
-  }
-
-  .little-square svg{
-    width: 50%;
-    margin: 0 0 0 25%;
-  }
-
-  .florida{
-    filter: invert(1);
-    width: 60%;
-    margin: 45% 0 0 20%;
-  }
-
-  section#sponsor div.sponsor-aside .little-square:active{
-    border: 10px solid rgba(255, 255, 255, 0.7);
-  }
-
-  /* COLORS */
-    .designit{
-      background-color: #a2d39b;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: white;
+      vertical-align: middle;
+      border: 1px solid #f0f0f1;
     }
 
-    .asu{
-      background-color: #61082b;
+    div.radio-circle.checked{
+      border: 4px solid #0061ff;
     }
 
-    .florida-uni{
-      background-color: #0093ce;
+    .money-by-time{
+      margin-right: 10px;
+      vertical-align: middle;
     }
 
-    .topps{
-      background-color: #ff1c1c;
+
+    /* PRIMA COLONNA */
+      .column-container{
+        margin-top: 10px;
+      }
+
+      .column{
+        width: calc(100% / 3 - 30px);
+        min-height: 1000px;
+        border: 1px solid #cdcdd0;
+        margin-bottom: 40px;
+      }
+
+      .column-header{
+        border-bottom: 1px solid #cdcdd0;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .column-content{
+        padding: 30px 36px 0 30px;
+      }
+
+      .column-content > *, .type-of-plan > *{
+        margin-bottom: 10px;
+      }
+
+      .cost{
+        display: block;
+        font-weight: bold;
+      }
+
+      .type-of-payment{
+        color: #76838f;
+      }
+
+      section div.plan-description{
+        margin-top: 30px;
+      }
+
+      section#plans ol{
+        margin: 0;
+        margin-left: 17px;
+      }
+
+      section#plans ol li{
+        margin-bottom: 25px;
+      }
+
+      .plan-try-button{
+        margin: 50px 0 20px 0;
+      }
+
+      .buy-now{
+        text-decoration: underline;
+        text-decoration-color: rgba(160, 196, 255, 0.2);
+        color: #0463ff;
+      }
+
+      .hr{
+        margin: 30px 0 30px 0;
+        width: 45px;
+        border-bottom: 1px solid #d8d8db;
+      }
+
+      .catchy-points h4{
+        margin-bottom: 20px;
+      }
+
+      .fa-solid.fa-check{
+        color: #005cff;
+      }
+    /* /PRIMA COLONNA */
+
+
+
+    /* COLONNA CENTRALE */
+      .column-center{
+        margin: 0 45px 0 45px;
+      }
+    /* COLONNA CENTRALE */
+
+
+    /* COLONNA IN BASSO */
+      .bottom-column{
+        border: 1px solid #cdcdd0;
+      }
+
+      .row-content{
+        padding: 30px;
+      }
+
+
+      .row-description{
+        width: 71%;
+      }
+
+      .row-description h2{
+        padding-bottom: 15px;
+      }
+
+      .contact-button{
+        width: 29%;
+      }
+    /* /COLONNA IN BASSO */
+
+  /* /SEZIONE PIANI */
+
+
+
+  /* SEZIONE TROVA PARTNER */
+    .right-description{
+      height: 496px;
+      padding: 50px 190px 50px 50px;
     }
 
-    .bycicle{
-      background-color: #d5001f;
+    .partner-finder-button{
+      padding-top: 20px;
     }
 
-    .hearst{
-      background-color: #b4d0e7;
+    .right-description .partner-finder-button a{
+      border: 1px solid black;
+      color: black;
+    }
+  /* /SEZIONE TROVA PARTNER */
+
+
+
+  /* SEZIONE BUSINESS */
+    #business h2{
+      font-size: 40px;
+      margin-bottom: 40px;
     }
 
-    .planet{
-      background-color: #0d2481;
+    .little-column{
+      width: calc(100% / 3 - 30px)
     }
 
-    .channel{
-      background-color: #ffd830;
+    #business h3{
+      font-size: 23px;
     }
-  /* /COLORS */
-/* /SPONSOR-CONTENT */
 
+    .first-row{
+      margin-bottom: 100px;
+    }
 
-/* SPONSOR BOTTOM SECTION */
-.sponsorship{
-  height: 260px;
-  background-color: #b4d0e7;
-  padding-top: 70px;
-}
-
-.sponsorship-title{
-  width: 75%;
-}
-
-.sponsorship-title h2{
-  font-size: 35px;
-  color: #61082b;
-}
-
-.sponsorship-btn{
-  background-color: white;
-  text-align: center;
-  padding: 6px 5px 6px 5px;
-  width: 25%;
-}
-
-.sponsorship-btn a{
-  color: black;
-  font-size: bold;
-}
-
-/* /SPONSOR BOTTOM SECTION */
-/* /SEZIONE SPONSOR */
+    #business a{
+      text-decoration: underline;
+      text-decoration-color: #7b7b7b;
+    }
+  /* /SEZIONE BUSINESS */
 
 
 
-/* DOMANDE FREQUENTI */
-.title-domande-frequenti{
-  border-bottom: 1px solid #e7e7e8;
-}
+  /* SEZIONE SPONSOR */
 
-.title-domande-frequenti h2{
-  font-size: 35px;
-  margin-bottom: 30px;
-}
+    /* SPONSOR HEADER */
+      .sponsor-header h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
 
-.little-row{
-  padding-top: 40px;
-  border-bottom: 1px solid #e7e7e8;
-  min-height: 100px;
-}
+      .sponsor-header a{
+        text-decoration: underline #005eff;
+        color: #005eff;
+      }
 
-.hidden-txt{
-  padding: 20px 0 20px 0;
-  width: 85%;
-  display: none;
-  color: #7a8894;
-}
+      .sponsor-header{
+        margin-bottom: 40px;
+      }
+    /* /SPONSOR HEADER */
 
-.little-row-txt:hover div.hidden-txt{
-  display: block;
-}
+    /* SPONSOR-CONTENT */
+      .sponsor-content{
+        height: 30vw;
+      }
 
-.little-row-txt:hover span.chevron{
-  transform: rotate(180deg);
-}
+      .sponsor-aside{
+        width: 30%;
+        height: 100%;
+      }
 
-.hidden-txt a{
-  color: #7a8894;
-  text-decoration: underline #7a8894;
-}
+      .little-square{
+        width: 50%;
+        height: 50%;
+      }
 
-/* /DOMANDE FREQUENTI */
+      div.sponsor-content img{
+        filter: invert(1);
+        width: 60%;
+      }
 
+      section#sponsor div.sponsor-aside .little-square:hover{
+        border: 10px solid rgba(255, 255, 255, 0.7);
+      }
+
+
+    /* SPONSOR CENTRALE */
+      .sponsor-central{
+        width: 40%;
+        height: 100%;
+        background-color: #f5f5f5;
+        padding: 50px;
+        overflow: auto;
+      }
+      .sponsor-img{
+        width: 20%;
+        margin-bottom: 30px;
+      }
+      
+      .sponsor-img svg{
+        width: 100%;
+        height: 100%;
+        }
+
+      .hr-little{
+          width: 50px;
+        border: 1px solid #dfdfe1;
+        margin-bottom: 40px;
+        }
+
+      .sponsor-central .quote-credit{
+        display: inline-block;
+          margin-top: 40px;
+      }
+    /* /SPONSOR CENTRALE */
+
+      /* SPONSOR LOGO POSITION */
+        div.sponsor-content .florida-img, .hearst-img{
+          margin: 50% 0 0 20%;
+        }
+
+        div.sponsor-content .designit-img, .bycicle-img{
+          margin: 45% 0 0 20%;
+        }
+
+        div.sponsor-content .asu-img{
+          margin: 35% 0 0 23%;
+        }
+
+        div.sponsor-content .topps-img{
+          margin: 40% 0 0 20%;
+        }
+
+        div.sponsor-content .planet-img{
+          margin: 40% 0 0 20%;
+        }
+
+        div.sponsor-content .channel-img{
+          margin: 35% 0 0 20%;
+        }
+      /* /SPONSOR LOGO POSITION */
+
+      /* COLORS */
+        .designit-sq{
+          background-color: #a2d39b;
+        }
+
+        .asu-sq{
+          background-color: #61082b;
+        }
+
+        .florida-sq{
+          background-color: #0093ce;
+        }
+
+        .topps-sq{
+          background-color: #ff1c1c;
+        }
+
+        .bycicle-sq{
+          background-color: #d5001f;
+        }
+
+        .hearst-sq{
+          background-color: #b4d0e7;
+        }
+
+        .planet-sq{
+          background-color: #0d2481;
+        }
+
+        .channel-sq{
+          background-color: #ffd830;
+        }
+      /* /COLORS */
+        
+    /* /SPONSOR-CONTENT */
+
+
+    /* SPONSOR BOTTOM SECTION */
+      .sponsorship{
+        height: 260px;
+        background-color: #b4d0e7;
+        padding-top: 100px;
+      }
+
+      .sponsorship-title{
+        width: 75%;
+      }
+
+      .sponsorship-title h2{
+        font-size: 35px;
+        color: #61082b;
+      }
+
+      .sponsorship-button{
+        background-color: white;
+        width: 25%;
+      }
+
+      .sponsorship-button a{
+        color: black;
+        font-size: bold;
+      }
+
+    /* /SPONSOR BOTTOM SECTION */
+
+  /* /SEZIONE SPONSOR */
+
+
+
+  /* DOMANDE FREQUENTI */
+    .title-domande-frequenti{
+      border-bottom: 1px solid #e7e7e8;
+    }
+
+    .title-domande-frequenti h2{
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+
+    .little-row{
+      padding-top: 40px;
+      border-bottom: 1px solid #e7e7e8;
+      min-height: 100px;
+    }
+
+    .hidden-txt{
+      padding: 20px 0 20px 0;
+      width: 85%;
+      display: none;
+      color: #7a8894;
+    }
+
+    .little-row:hover div.hidden-txt{
+      display: block;
+    }
+
+    .little-row-txt:hover span.chevron{
+      transform: rotate(180deg);
+    }
+
+    .hidden-txt a{
+      color: #7a8894;
+      text-decoration: underline #7a8894;
+    }
+
+  /* /DOMANDE FREQUENTI */
+
+/* MAIN */
 
 
 /* FOOTER */
-footer{
-  background-color: black;
-  padding: 70px 0 0 0px;
-}
+  footer{
+    background-color: black;
+    padding: 70px 0 0 0px;
+    color: white;
+  }
 
-.footer-container{
-  width: 70%;
-  margin: 0 auto;
-}
+  .footer-container{
+    width: 70%;
+  }
 
-.footer-container.lists{
-  margin-bottom: 60px;
-}
+  .footer-container.lists{
+    margin-bottom: 60px;
+  }
 
-footer nav:nth-child(1n + 2) ul{
-  margin-left: 80px;
-}
+  footer nav:nth-child(1n + 2) ul{
+    margin-left: 80px;
+  }
 
-footer nav ul li{
-  margin-bottom: 5px;
-}
+  footer nav ul li:nth-child(1n + 2){
+    margin-bottom: 10px;
+  }
 
-footer nav ul li a h3{
-  margin-bottom: 15px;
-}
+  footer nav ul li:first-child{
+    margin-bottom: 15px;
+  }
 
-footer nav ul li a{
-  color: white;
-}
+  footer nav ul li a{
+    color: white;
+  }
 
-div.big-hr{
-  width: 100px;
-  border: 1px solid #969696;
-  margin-bottom: 30px;
-}
+  div.big-hr{
+    width: 100px;
+    border: 1px solid #969696;
+    margin-bottom: 30px;
+  }
 
-.localization{
-  color: white;
-  padding-bottom: 30px;
-}
+  .localization{
+    padding-bottom: 30px;
+  }
 
-.language{
-  color: #646464;
-}
+  .language{
+    color: #646464;
+  }
 
-.fa-solid .fa-caret-up{
-  vertical-align: bottom;
-}
+  .fa-solid .fa-caret-up{
+    vertical-align: bottom;
+  }
 /* /FOOTER */
+
+
+/* HOVER BTN */
+  .button-start:hover, .button-try:hover, 
+  .plan-try-button:hover, .contact-button:hover{
+    filter: brightness(1.5);
+  }
+
+  .partner-finder-button a:hover, .sponsorship-button:hover{
+    background-color: rgba(220, 220, 220, .7)
+  }
+/* HOVER BTN */
