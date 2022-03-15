@@ -44,27 +44,16 @@
   margin: 0 auto;
 }
 
+.little-hr{
+  width: 50px;
+  border: 1px solid #dfdfe1;
+}
+
 .active{
   border: 10px solid rgba(255, 255, 255, 0.7);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* DEBUG */
-
-.debug{
-  background-color: rgba(255, 0, 0, .2);
-  border: 1px solid black;
-}
 
 
 /* HEIGHT */
@@ -84,7 +73,6 @@
     min-height: 500px;
   }
 /* /HEIGHT */
-
 
 
 /* WIDTH */
@@ -117,6 +105,7 @@
   }
 /* /WIDTH */
 
+
 /* MARGIN */
 
   .mg-bottom30px{
@@ -143,7 +132,12 @@
     margin-top: 50px;
   }
 
+  .mg-top130px{
+    margin-top: 130px;
+  }
+
 /* /MARGIN */
+
 
 /* PADDING */
   .pd-bottom30px{
@@ -170,3 +164,11 @@
     padding-top: 50px;
   }
 /* PADDING */
+
+
+/* DEBUG */
+  .debug{
+    background-color: rgba(255, 0, 0, .2);
+    border: 1px solid black;
+  }
+/* DEBUG */
