@@ -258,7 +258,6 @@
 
   /* SEZIONE TROVA PARTNER */
     .right-description{
-      height: 496px;
       padding: 50px 190px 50px 50px;
     }
 
@@ -423,9 +422,8 @@
 
     /* SPONSOR BOTTOM SECTION */
       .sponsorship{
-        height: 260px;
         background-color: #b4d0e7;
-        padding-top: 100px;
+        padding: 100px 0;
       }
 
       .sponsorship-title{
